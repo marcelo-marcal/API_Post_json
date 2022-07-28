@@ -1,0 +1,9 @@
+PROMPT CREATE SEQUENCE dataintegra.seq_dti_agendamento
+CREATE SEQUENCE dataintegra.seq_dti_agendamento
+  MINVALUE 1
+  MAXVALUE 999999999999
+  INCREMENT BY 1
+  NOCYCLE
+  NOORDER
+  NOCACHE
+/
